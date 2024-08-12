@@ -16,7 +16,7 @@ export default function Home() {
 				<h1 className={'text-xl'}>
 					Kaspa<b>Funding</b> Launch Event
 				</h1>
-				<h2>November 7 s, 2024</h2>
+				<h2>November 7, 2024</h2>
 			</div>
 			<AlternateCountdown toDate={new Date(2024, 11, 1, 0, 0, 0)} />
 			<CrowdfundingProgressBar />
