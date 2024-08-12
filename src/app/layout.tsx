@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 		'Register and Learn more about the KaspaFunding Launch Party in Miami happening on Novemember 7th, the Kaspa Day',
 	keywords: 'Kaspa, KaspaFunding, Kaspa Day, Miami, Launch Party, Miningthon',
 	twitter: {
-		card: 'summary',
+		card: 'summary_large_image',
 		site: '@fundingkaspa',
 		title: 'KaspaFunding Launch Party',
 		description:
@@ -22,7 +22,6 @@ export const metadata: Metadata = {
 		images: ['https://launch.kaspafunding.com/thumbnail.png']
 	},
 	openGraph: {
-		type: 'website',
 		url: 'https://launch.kaspafunding.com',
 		title: 'KaspaFunding Launch Party',
 		description:
