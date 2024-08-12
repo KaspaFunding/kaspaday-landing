@@ -9,8 +9,33 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Kaspa Day Landing Website',
-	description: 'TODO: insert some description'
+	title: 'KaspaFunding Launch Party',
+	description:
+		'Register and Learn more about the KaspaFunding Launch Party in Miami happening on Novemember 7th, the Kaspa Day',
+	keywords: 'Kaspa, KaspaFunding, Kaspa Day, Miami, Launch Party, Miningthon',
+	twitter: {
+		card: 'summary',
+		site: '@fundingkaspa',
+		title: 'KaspaFunding Launch Party',
+		description:
+			'Register and Learn more about the KaspaFunding Launch Party in Miami happening on Novemember 7th, the Kaspa Day',
+		images: ['https://launch.kaspafunding.com/thumbnail.png']
+	},
+	openGraph: {
+		type: 'website',
+		url: 'https://launch.kaspafunding.com',
+		title: 'KaspaFunding Launch Party',
+		description:
+			'Register and Learn more about the KaspaFunding Launch Party in Miami happening on Novemember 7th, the Kaspa Day',
+		images: [
+			{
+				url: 'https://launch.kaspafunding.com/thumbnail.png',
+				width: 1200,
+				height: 627,
+				alt: 'KaspaFunding Launch Party'
+			}
+		]
+	}
 };
 
 export default function RootLayout({

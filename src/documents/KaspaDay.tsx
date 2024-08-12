@@ -12,7 +12,13 @@ export default function KaspaDay() {
 				page.
 				<br />
 				<br /> Want to participate in the event? <br />
-				<span className={'text-gray-400'}>Sign up coming soon</span>
+				<Link
+					className={'text-primary'}
+					href={'https://lu.ma/event/evt-vG0HXrSWbL9sIKB'}
+					target={'_blank'}
+				>
+					Register on Luma
+				</Link>
 				<br />
 				Want to help organize the event?
 				<br />

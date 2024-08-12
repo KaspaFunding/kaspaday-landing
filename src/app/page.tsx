@@ -5,7 +5,7 @@ import Contribute from '@/documents/Contribute';
 import KaspaDay from '@/documents/KaspaDay';
 import { faDiscord, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Button, Tooltip } from '@nextui-org/react';
+import { Button } from '@nextui-org/react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -23,9 +23,13 @@ export default function Home() {
 			<div className={'flex flex-wrap justify-center gap-3'}>
 				<DocumentModal id={'kaspa-day'} buttonText={'What is Kaspa Day?'} document={KaspaDay()} />
 				<DocumentModal id={'contribute'} buttonText={'Contribute'} document={Contribute()} />
-				<Tooltip content={'Coming soon!'} placement={'top'}>
-					<Button disabled>Attend</Button>
-				</Tooltip>
+				<Link
+					href={'https://lu.ma/event/evt-vG0HXrSWbL9sIKB'}
+					aria-label={'Attend KaspaFunding Launch Day'}
+					target={'_blank'}
+				>
+					<Button>Attend</Button>
+				</Link>
 			</div>
 
 			<div className={'flex items-center gap-3 text-lg'}>
