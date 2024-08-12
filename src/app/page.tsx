@@ -28,7 +28,9 @@ export default function Home() {
 					aria-label={'Attend KaspaFunding Launch Day'}
 					target={'_blank'}
 				>
-					<Button>Attend</Button>
+					<Button variant={'flat'} color={'primary'}>
+						Attend
+					</Button>
 				</Link>
 			</div>
 
