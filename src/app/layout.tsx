@@ -1,7 +1,9 @@
 import { Providers } from '@/app/providers';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
+
 import { Inter } from 'next/font/google';
 import './globals.css';
 config.autoAddCss = false;
@@ -46,6 +48,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<Providers>{children}</Providers>
+				<GoogleAnalytics gaId="G-75GY2F22P9" />
 			</body>
 		</html>
 	);
