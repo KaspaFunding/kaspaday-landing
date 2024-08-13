@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
 	title: 'KaspaFunding Launch Party',
 	description:
-		'Register and Learn more about the KaspaFunding Launch Party in Miami happening on Novemember 7th, the Kaspa Day',
+		'Register and Learn more about the KaspaFunding Launch Party in Miami happening on November 7th, the Kaspa Day',
 	keywords: 'Kaspa, KaspaFunding, Kaspa Day, Miami, Launch Party, Miningthon',
 	twitter: {
 		card: 'summary_large_image',
