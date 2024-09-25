@@ -18,7 +18,7 @@ export default function Home() {
 				</h1>
 				<h2>November 7, 2024</h2>
 			</div>
-			<AlternateCountdown toDate={new Date(2024, 11, 1, 0, 0, 0)} />
+			<AlternateCountdown toDate={new Date(2024, 10, 7, 0, 0, 0)} />
 			<CrowdfundingProgressBar />
 			<div className={'flex flex-wrap justify-center gap-3'}>
 				<DocumentModal id={'kaspa-day'} buttonText={'What is Kaspa Day?'} document={KaspaDay()} />
